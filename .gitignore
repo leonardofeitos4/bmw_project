@@ -1,0 +1,98 @@
+# ============================================
+# 🐍 Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+
+# ============================================
+# 📦 Ambientes Virtuais
+# ============================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# 📚 Dependências / Build
+# ============================================
+build/
+dist/
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# ============================================
+# 💻 IDEs / Editores
+# ============================================
+.vscode/
+.idea/
+.spyproject/
+.ropeproject/
+
+# ============================================
+# 🧠 Streamlit / Config Local
+# ============================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ============================================
+# 💾 Dados Locais
+# ============================================
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.json
+
+# (Se quiser versionar arquivos de exemplo, use data/example.csv)
+
+# ============================================
+# 🔐 Credenciais e Configs Sensíveis
+# ============================================
+*.env
+secrets.json
+config.json
+credentials.json
+token.json
+*.pem
+*.key
+
+# ============================================
+# 📸 Imagens e Relatórios Gerados
+# ============================================
+reports/
+outputs/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ============================================
+# ⚙️ Sistema Operacional
+# ============================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+Icon?
